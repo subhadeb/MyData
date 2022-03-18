@@ -27,6 +27,10 @@ VALUES
 INSERT INTO [tblEmployeeReward] 
     (EmpID,RewardPoints)
 VALUES
-  (1, 2500),
+	(1, 2500),
 	(4, 5500),
 	(5, 1000)
+
+--Hint to Find AgeGender: USE Cast/Convert/Datediff 
+SELECT * from tblEmployee
+SELECT * from tblEmployeeReward
