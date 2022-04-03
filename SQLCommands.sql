@@ -11,13 +11,13 @@ CREATE TABLE [tblEmployee](
 INSERT INTO [tblEmployee] 
     (EmpID, FirstName,LastName,Gender,Salary,DateOfBirth)
 VALUES
-    (1, 'John','Doe',		'Male',	33000,	'1993-11-27'),
-	(2, 'Jane','Smith',		'Female',	43000,	'1989-07-13'),
-	(4, 'Matts','Hurray',	'Male',	29000,	'1997-01-04'),
-	(5, 'Plank','Ottary',	'Male',	28000,	'1993-07-09'),
-	(6, 'Eliza','Harry',	'Female',	30000,	'1992-01-31'),
-	(7, 'Blanka','Dits',	'Female',	30000,	'1997-10-07'),
-	(8, 'Eline','Herry',	'Male',	40000,	'1996-03-23');
+    (101, 'John','Doe',		'Male',	33000,	'1993-07-27'),
+	(102, 'Jane','Smith',		'Female',	43000,	'1983-06-13'),
+	(103, 'Matts','Hurray',	'Male',	29000,	'1997-01-04'),
+	(104, 'Plank','Ottary',	'Male',	28000,	'1993-07-09'),
+	(105, 'Eliza','Harry',	'Female',	30000,	'1980-01-31'),
+	(106, 'Maria','Dits',	'Female',	30000,	'2004-10-07'),
+	(107, 'James','Herry',	'Male',	40000,	'1996-03-23');
   
   CREATE TABLE [tblEmployeeReward](
 	[EmpID] [int],
@@ -27,9 +27,9 @@ VALUES
 INSERT INTO [tblEmployeeReward] 
     (EmpID,RewardPoints)
 VALUES
-	(1, 2500),
-	(4, 5500),
-	(5, 1000)
+	(101, 2500),
+	(104, 5500),
+	(105, 1000)
 
 --Hint to Find AgeGender: USE Cast/Convert/Datediff 
 SELECT * from tblEmployee
