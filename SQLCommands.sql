@@ -30,7 +30,7 @@ VALUES
 	(101, 2500),
 	(104, 5500),
 	(105, 1000)
-
---Hint to Find AgeGender: USE Cast/Convert/Datediff 
-SELECT * from tblEmployee
+--Hint to Find AgeGender: USE CAST()/GETDATE()/DATEDIFF() 
+SELECT firstname + ' ' + lastname as FullNameDerived,
+* from tblEmployee
 SELECT * from tblEmployeeReward
