@@ -31,6 +31,6 @@ VALUES
 	(104, 5500),
 	(105, 1000)
 --Hint to Find AgeGender: USE CAST()/GETDATE()/DATEDIFF() 
-SELECT firstname + ' ' + lastname as FullNameDerived,
+SELECT firstname + ' ' + lastname as DerivedFullName,
 * from tblEmployee
 SELECT * from tblEmployeeReward
