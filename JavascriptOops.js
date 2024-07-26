@@ -26,3 +26,29 @@ static class MyStaticClass
 //#5 OOPS/CSharp - Summarize Instantiation and Inheriance for the below three
 Static Class, Abstract Class, Sealed Class 
 //Which can be Instantiated(New Class()) and which can be Inherited by another class(Class A: Class B)
+
+
+
+
+//#6React Code in app.js:
+import React, { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import "./styles.css";
+import App from "./App";
+function ShowDetail(props) {
+  return <h3>I am  
+      /Get the FirstName Here/ 
+      and  my age is 
+      /Get the Age Here/</h3>;
+}
+function EmployeeDetail() {
+  const johnInfo = { FirstName: "John", Age : 29 };
+  return (
+    <>
+	    <h1 >What is your name and age?</h1>
+	    <ShowDetail emp={ johnInfo } />
+    </>
+  );
+}
+const root = createRoot(document.getElementById('root'));
+root.render(<EmployeeDetail />);
