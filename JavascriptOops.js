@@ -30,7 +30,7 @@ Static Class, Abstract Class, Sealed Class
 
 
 
-//#6React Code in app.js:
+//#6React Code in index.js:
 import React, { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./styles.css";
