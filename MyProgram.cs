@@ -24,12 +24,14 @@ namespace Rextester
             employees.Add(new Employee() { FirstName = "James", Age = 26 });
             
             //Find The First Name of the Highest Aged Employee in Capitalized format using LINQ(It should output ELIZA)
+	    //Hint: Use to upper, order by descending and first or default LINQ methods. 
             var firstName = employees.FirstOrDefault().FirstName;
             
             Console.WriteLine(firstName);
 
             //Find All employees between the age 20-30
-			Console.WriteLine();
+	    //Hint: Use where linq method
+	    Console.WriteLine();
             var employeesFiltered = employees.ToList();
             
             Console.WriteLine("Filtered Employees: ");
